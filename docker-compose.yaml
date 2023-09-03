@@ -18,6 +18,7 @@ services:
       - "4500:4500/udp"
     privileged: true
   adguard:
+    network_mode: host
     container_name: adguardhome
     image: adguard/adguardhome
     restart: unless-stopped

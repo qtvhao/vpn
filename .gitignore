@@ -1,3 +1,4 @@
 .env
 ikev2-vpn-data/
 adguard/work/data/
+adguard/conf/
